@@ -1,0 +1,40 @@
+input,
+textarea {
+  background: #f2f5fa;
+  border-radius: 10px;
+  padding: 14px 18px;
+
+  border: 1px solid transparent;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000;
+}
+p {
+  margin-bottom: 8px;
+  font-size: 14px;
+  line-height: 150%;
+  color: #494d61;
+  font-weight: 500;
+}
+h6 {
+  font-size: 12px;
+  line-height: 150%;
+  color: #ff4242;
+  font-weight: 500;
+  margin: 4px 0 16px 0;
+}
+span {
+  color: #ff4242;
+  font-weight: 800;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+}
+
+:root {
+  --PhoneInput-color--focus: #000;
+}
